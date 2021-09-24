@@ -1,0 +1,24 @@
+[2021-09-17 16:49:14,907]-[login.py|__init__]-[line|66]-DEBUG   : 登录环境--->test
+[2021-09-17 16:49:14,908]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: https://gcgateway-dev.dingyl.com/unify_users/user/get/phone/code
+请求data: {"n": {"out_organ_id": "dinge1e0bb139cd52aa335c2f4657eb6378f", "phone": "15103477778", "project_id": "hrm", "notice_title": 120}, "a": {"source": "1"}, "v": {}}
+[2021-09-17 16:49:14,912]-[connectionpool.py|_new_conn]-[line|971]-DEBUG   : Starting new HTTPS connection (1): gcgateway-dev.dingyl.com:443
+[2021-09-17 16:49:15,105]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : https://gcgateway-dev.dingyl.com:443 "POST /unify_users/user/get/phone/code HTTP/1.1" 200 None
+[2021-09-17 16:49:15,109]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': 'eb1f245acf514e0493f372a319f3eddb'}, 'n': {'code_id': 'f32457cff2a24be28361fc600264512b'}, 'r': {'message': '成功', 'result': '1', 'sub_code': '', 'sub_message': ''}}
+[2021-09-17 16:49:15,111]-[login.py|is_true]-[line|112]-INFO    : 获取登录验证码成功
+[2021-09-17 16:49:15,111]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: http://121.40.151.38:9082/unify_users/notice/job/send/message
+请求data: None
+[2021-09-17 16:49:15,116]-[connectionpool.py|_new_conn]-[line|227]-DEBUG   : Starting new HTTP connection (1): 121.40.151.38:9082
+[2021-09-17 16:49:15,228]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : http://121.40.151.38:9082 "POST /unify_users/notice/job/send/message HTTP/1.1" 200 None
+[2021-09-17 16:49:15,229]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': 'a0ee4630e7644c849dfb12e2d2346c1e'}, 'r': {'message': '成功', 'result': '1', 'sub_code': '', 'sub_message': ''}}
+[2021-09-17 16:49:15,229]-[login.py|is_true]-[line|112]-INFO    : 执行验证码发送任务成功
+[2021-09-17 16:49:15,230]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: https://gcgateway-dev.dingyl.com/unify_message/notice/message/query
+请求data: {"n": {"user_name": "", "user_phone": "15103477778", "message_content": "", "send_type": "295"}, "a": {"source": "1284"}, "v": null, "f": {"indexpage": 1, "repaging": "1", "pagesize": 10}}
+[2021-09-17 16:49:15,234]-[connectionpool.py|_new_conn]-[line|971]-DEBUG   : Starting new HTTPS connection (1): gcgateway-dev.dingyl.com:443
+[2021-09-17 16:49:15,330]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : https://gcgateway-dev.dingyl.com:443 "POST /unify_message/notice/message/query HTTP/1.1" 200 None
+[2021-09-17 16:49:15,333]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': '0bbb8468a153473599f31f26841b3ef4'}, 'r': {'message': 'session过期', 'result': '2', 'sub_all_message': '', 'sub_code': '', 'sub_message': ''}}

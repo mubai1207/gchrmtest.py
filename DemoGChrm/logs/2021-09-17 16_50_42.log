@@ -1,0 +1,41 @@
+[2021-09-17 16:50:42,983]-[login.py|__init__]-[line|66]-DEBUG   : 登录环境--->test
+[2021-09-17 16:50:42,983]-[login.py|__init__]-[line|24]-DEBUG   : 登录环境--->test
+[2021-09-17 16:50:42,983]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: https://hrmapitest.dingyl.com/hrm/user/rsa/public/key/query
+请求data: {"n": {"user_code": "GC0200074603961341"}, "a": {"source": "1284"}, "v": {}}
+[2021-09-17 16:50:42,987]-[connectionpool.py|_new_conn]-[line|971]-DEBUG   : Starting new HTTPS connection (1): hrmapitest.dingyl.com:443
+[2021-09-17 16:50:43,097]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : https://hrmapitest.dingyl.com:443 "POST /hrm/user/rsa/public/key/query HTTP/1.1" 200 None
+[2021-09-17 16:50:43,102]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': 'e005926e91b543b7852e15cb9cd34370'}, 'n': {'random_key': '02428516'}, 'r': {'message': '成功', 'result': '1', 'sub_code': '', 'sub_message': ''}}
+[2021-09-17 16:50:43,105]-[login.py|is_true]-[line|111]-INFO    : 获取登录key成功
+[2021-09-17 16:50:43,106]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: https://hrmapitest.dingyl.com/hrm/user/login
+请求data: {"n": {"user_code": "GC0200074603961341", "user_pwd": "f5cca83e9a5e25dec02de9c1bef5dd0c", "corp_id": "dinge1e0bb139cd52aa335c2f4657eb6378f"}, "a": {"source": "1284"}}
+[2021-09-17 16:50:43,112]-[connectionpool.py|_new_conn]-[line|971]-DEBUG   : Starting new HTTPS connection (1): hrmapitest.dingyl.com:443
+[2021-09-17 16:50:43,337]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : https://hrmapitest.dingyl.com:443 "POST /hrm/user/login HTTP/1.1" 200 None
+[2021-09-17 16:50:43,341]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': 'f11bbcf7ae484535b7c83b6d778b26f9'}, 'n': {'expire_time': '2022-09-30', 'gc_ding_dept_id': [{'key': 'd9abe94d140045788184433f81fe6b92', 'value': '科教科'}], 'is_expire': '0', 'personal_template_id': 'b764a448cd5f48799e2f515ce698c73a', 'position_form_id': 'POSITION_FORM1', 'product_type': '试用套餐', 'require_form_id': 'ZPXQFORM1', 'role_type': '', 'session_id': 'd968be6eb6194964a7c75529f0acdab1', 'user_avatar': 'https://static-legacy.dingtalk.com/media/lADPDgQ9wHhdLP7NA-DNAug_744_992.jpg', 'user_id': 'f3be3fc8357549d0be674469cc6416f8', 'user_name': '白刚3ggg', 'worker_job_form_id': '1221'}, 'r': {'message': '成功', 'result': '1', 'sub_code': '', 'sub_message': ''}}
+[2021-09-17 16:50:43,342]-[login.py|is_true]-[line|111]-INFO    : 登录结果成功
+[2021-09-17 16:50:43,344]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: https://gcgateway-dev.dingyl.com/unify_users/user/get/phone/code
+请求data: {"n": {"out_organ_id": "dinge1e0bb139cd52aa335c2f4657eb6378f", "phone": "15103477778", "project_id": "hrm", "notice_title": 120}, "a": {"source": "1"}, "v": {}}
+[2021-09-17 16:50:43,352]-[connectionpool.py|_new_conn]-[line|971]-DEBUG   : Starting new HTTPS connection (1): gcgateway-dev.dingyl.com:443
+[2021-09-17 16:50:43,643]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : https://gcgateway-dev.dingyl.com:443 "POST /unify_users/user/get/phone/code HTTP/1.1" 200 None
+[2021-09-17 16:50:43,647]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': '05e1614d7d7f4a90bf00c54039500e62'}, 'n': {'code_id': 'c6b32659954d4621b597c303b92b0723'}, 'r': {'message': '成功', 'result': '1', 'sub_code': '', 'sub_message': ''}}
+[2021-09-17 16:50:43,648]-[login.py|is_true]-[line|111]-INFO    : 获取登录验证码成功
+[2021-09-17 16:50:43,648]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: http://121.40.151.38:9082/unify_users/notice/job/send/message
+请求data: None
+[2021-09-17 16:50:43,656]-[connectionpool.py|_new_conn]-[line|227]-DEBUG   : Starting new HTTP connection (1): 121.40.151.38:9082
+[2021-09-17 16:50:43,776]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : http://121.40.151.38:9082 "POST /unify_users/notice/job/send/message HTTP/1.1" 200 None
+[2021-09-17 16:50:43,777]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': 'fa7e862b05924d55b5eb17fc8b538d19'}, 'r': {'message': '成功', 'result': '1', 'sub_code': '', 'sub_message': ''}}
+[2021-09-17 16:50:43,777]-[login.py|is_true]-[line|111]-INFO    : 执行验证码发送任务成功
+[2021-09-17 16:50:43,777]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: https://gcgateway-dev.dingyl.com/unify_message/notice/message/query
+请求data: {"n": {"user_name": "", "user_phone": "15103477778", "message_content": "", "send_type": "295"}, "a": {"source": "1284"}, "v": ["d968be6eb6194964a7c75529f0acdab1"], "f": {"indexpage": 1, "repaging": "1", "pagesize": 10}}
+[2021-09-17 16:50:43,779]-[connectionpool.py|_new_conn]-[line|971]-DEBUG   : Starting new HTTPS connection (1): gcgateway-dev.dingyl.com:443
+[2021-09-17 16:50:43,872]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : https://gcgateway-dev.dingyl.com:443 "POST /unify_message/notice/message/query HTTP/1.1" 200 None
+[2021-09-17 16:50:43,873]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': 'd50972e1b911498c8fc693491d722bb8'}, 'r': {'message': '数据格式异常', 'result': '0', 'sub_all_message': '', 'sub_code': '0', 'sub_message': 'JSON parse error: syntax error, expect {, actual [, pos 127, fieldName v, fastjson-version 1.2.71; nested exception is com.alibaba.fastjson.JSONException: syntax error, expect {, actual [, pos 127, fieldName v, fastjson-version 1.2.71'}}

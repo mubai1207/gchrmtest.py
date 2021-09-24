@@ -1,0 +1,63 @@
+[2021-09-17 16:31:08,703]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.address`.
+[2021-09-17 16:31:08,711]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.address` has been localized to `zh_CN`.
+[2021-09-17 16:31:08,712]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+[2021-09-17 16:31:08,716]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+[2021-09-17 16:31:08,717]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.bank`.
+[2021-09-17 16:31:08,721]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-09-17 16:31:08,721]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+[2021-09-17 16:31:08,722]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+[2021-09-17 16:31:08,724]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.color`.
+[2021-09-17 16:31:08,726]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+[2021-09-17 16:31:08,727]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.company`.
+[2021-09-17 16:31:08,731]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.company` has been localized to `zh_CN`.
+[2021-09-17 16:31:08,732]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+[2021-09-17 16:31:08,733]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+[2021-09-17 16:31:08,734]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.currency`.
+[2021-09-17 16:31:08,736]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+[2021-09-17 16:31:08,737]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+[2021-09-17 16:31:08,741]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+[2021-09-17 16:31:08,742]-[factory.py|_find_provider_class]-[line|113]-DEBUG   : Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-09-17 16:31:08,742]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.geo`.
+[2021-09-17 16:31:08,743]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+[2021-09-17 16:31:08,744]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.internet`.
+[2021-09-17 16:31:08,749]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.internet` has been localized to `zh_CN`.
+[2021-09-17 16:31:08,750]-[factory.py|_find_provider_class]-[line|113]-DEBUG   : Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-09-17 16:31:08,750]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.job`.
+[2021-09-17 16:31:08,754]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.job` has been localized to `zh_CN`.
+[2021-09-17 16:31:08,755]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+[2021-09-17 16:31:08,757]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.lorem` has been localized to `zh_CN`.
+[2021-09-17 16:31:08,758]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.misc`.
+[2021-09-17 16:31:08,759]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+[2021-09-17 16:31:08,760]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.person`.
+[2021-09-17 16:31:08,767]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.person` has been localized to `zh_CN`.
+[2021-09-17 16:31:08,768]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+[2021-09-17 16:31:08,775]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+[2021-09-17 16:31:08,776]-[factory.py|_find_provider_class]-[line|113]-DEBUG   : Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-09-17 16:31:08,776]-[factory.py|_find_provider_class]-[line|113]-DEBUG   : Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-09-17 16:31:08,777]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+[2021-09-17 16:31:08,783]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.ssn` has been localized to `zh_CN`.
+[2021-09-17 16:31:08,785]-[factory.py|_find_provider_class]-[line|113]-DEBUG   : Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-09-17 16:31:08,785]-[login.py|__init__]-[line|67]-DEBUG   : 登录环境--->test
+[2021-09-17 16:31:08,785]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: https://gcgateway-dev.dingyl.com/unify_users/user/get/phone/code
+请求data: {"n": {"out_organ_id": "dinge1e0bb139cd52aa335c2f4657eb6378f", "phone": "17205434095", "project_id": "hrm", "notice_title": 120}, "a": {"source": "1"}, "v": {}}
+[2021-09-17 16:31:08,789]-[connectionpool.py|_new_conn]-[line|971]-DEBUG   : Starting new HTTPS connection (1): gcgateway-dev.dingyl.com:443
+[2021-09-17 16:31:09,035]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : https://gcgateway-dev.dingyl.com:443 "POST /unify_users/user/get/phone/code HTTP/1.1" 200 None
+[2021-09-17 16:31:09,039]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': 'a6260054d3c946969072714b10310455'}, 'n': {'code_id': 'e992baf24fcc49fab245e793fb2dce92'}, 'r': {'message': '成功', 'result': '1', 'sub_code': '', 'sub_message': ''}}
+[2021-09-17 16:31:09,042]-[login.py|is_true]-[line|109]-INFO    : 获取登录验证码成功
+[2021-09-17 16:31:09,043]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: http://121.40.151.38:9082/unify_users/notice/job/send/message
+请求data: None
+[2021-09-17 16:31:09,051]-[connectionpool.py|_new_conn]-[line|227]-DEBUG   : Starting new HTTP connection (1): 121.40.151.38:9082
+[2021-09-17 16:31:09,172]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : http://121.40.151.38:9082 "POST /unify_users/notice/job/send/message HTTP/1.1" 200 None
+[2021-09-17 16:31:09,175]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': '3604a7f9b82a4935851d3c537a83bdf2'}, 'r': {'message': '成功', 'result': '1', 'sub_code': '', 'sub_message': ''}}
+[2021-09-17 16:31:09,175]-[login.py|is_true]-[line|109]-INFO    : 执行验证码发送任务成功
+[2021-09-17 16:31:09,176]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: https://gcgateway-dev.dingyl.com/unify_message/notice/message/query
+请求data: {"n": {"user_name": "", "user_phone": "17205434095", "message_content": "", "send_type": "295"}, "a": {"source": "1284"}, "v": {}, "f": {"indexpage": 1, "repaging": "1", "pagesize": 10}}
+[2021-09-17 16:31:09,184]-[connectionpool.py|_new_conn]-[line|971]-DEBUG   : Starting new HTTPS connection (1): gcgateway-dev.dingyl.com:443
+[2021-09-17 16:31:09,312]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : https://gcgateway-dev.dingyl.com:443 "POST /unify_message/notice/message/query HTTP/1.1" 200 None
+[2021-09-17 16:31:09,316]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': '9d3632540c804c0cb636275924ec1631'}, 'r': {'message': 'session过期', 'result': '2', 'sub_all_message': '', 'sub_code': '', 'sub_message': ''}}

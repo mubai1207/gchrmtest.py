@@ -1,0 +1,56 @@
+[2021-09-18 14:25:30,529]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.address`.
+[2021-09-18 14:25:30,537]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.address` has been localized to `zh_CN`.
+[2021-09-18 14:25:30,538]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+[2021-09-18 14:25:30,542]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+[2021-09-18 14:25:30,543]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.bank`.
+[2021-09-18 14:25:30,546]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-09-18 14:25:30,547]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+[2021-09-18 14:25:30,548]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+[2021-09-18 14:25:30,550]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.color`.
+[2021-09-18 14:25:30,553]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+[2021-09-18 14:25:30,554]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.company`.
+[2021-09-18 14:25:30,558]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.company` has been localized to `zh_CN`.
+[2021-09-18 14:25:30,559]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+[2021-09-18 14:25:30,560]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+[2021-09-18 14:25:30,561]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.currency`.
+[2021-09-18 14:25:30,564]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+[2021-09-18 14:25:30,565]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+[2021-09-18 14:25:30,569]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+[2021-09-18 14:25:30,570]-[factory.py|_find_provider_class]-[line|113]-DEBUG   : Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-09-18 14:25:30,571]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.geo`.
+[2021-09-18 14:25:30,572]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+[2021-09-18 14:25:30,573]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.internet`.
+[2021-09-18 14:25:30,579]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.internet` has been localized to `zh_CN`.
+[2021-09-18 14:25:30,580]-[factory.py|_find_provider_class]-[line|113]-DEBUG   : Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-09-18 14:25:30,580]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.job`.
+[2021-09-18 14:25:30,584]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.job` has been localized to `zh_CN`.
+[2021-09-18 14:25:30,585]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+[2021-09-18 14:25:30,588]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.lorem` has been localized to `zh_CN`.
+[2021-09-18 14:25:30,589]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.misc`.
+[2021-09-18 14:25:30,590]-[factory.py|_find_provider_class]-[line|101]-DEBUG   : Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+[2021-09-18 14:25:30,591]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.person`.
+[2021-09-18 14:25:30,599]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.person` has been localized to `zh_CN`.
+[2021-09-18 14:25:30,601]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+[2021-09-18 14:25:30,609]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+[2021-09-18 14:25:30,610]-[factory.py|_find_provider_class]-[line|113]-DEBUG   : Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-09-18 14:25:30,610]-[factory.py|_find_provider_class]-[line|113]-DEBUG   : Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-09-18 14:25:30,610]-[factory.py|_find_provider_class]-[line|94]-DEBUG   : Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+[2021-09-18 14:25:30,617]-[factory.py|_find_provider_class]-[line|106]-DEBUG   : Provider `faker.providers.ssn` has been localized to `zh_CN`.
+[2021-09-18 14:25:30,619]-[factory.py|_find_provider_class]-[line|113]-DEBUG   : Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-09-18 14:25:30,619]-[login.py|__init__]-[line|24]-DEBUG   : 登录环境--->test
+[2021-09-18 14:25:30,620]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: https://hrmapitest.dingyl.com/hrm/user/rsa/public/key/query
+请求data: {"n": {"user_code": "13234166661"}, "a": {"source": "1284"}, "v": {}}
+[2021-09-18 14:25:30,624]-[connectionpool.py|_new_conn]-[line|971]-DEBUG   : Starting new HTTPS connection (1): hrmapitest.dingyl.com:443
+[2021-09-18 14:25:30,906]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : https://hrmapitest.dingyl.com:443 "POST /hrm/user/rsa/public/key/query HTTP/1.1" 200 None
+[2021-09-18 14:25:30,909]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': '983d6262048a4dd79d7a02efebd2780e'}, 'n': {'random_key': '78778361'}, 'r': {'message': '成功', 'result': '1', 'sub_code': '', 'sub_message': ''}}
+[2021-09-18 14:25:30,913]-[login.py|is_true]-[line|110]-INFO    : 获取登录key成功
+[2021-09-18 14:25:30,913]-[sendRequests.py|send_requests]-[line|97]-DEBUG   : 
+请求方式: post
+请求URL: https://hrmapitest.dingyl.com/hrm/user/login
+请求data: {"n": {"user_code": "13234166661", "user_pwd": "a1ecabcb49219b08ad343ab561c74e2a", "corp_id": "dinge1e0bb139cd52aa335c2f4657eb6378f"}, "a": {"source": "1284"}}
+[2021-09-18 14:25:30,921]-[connectionpool.py|_new_conn]-[line|971]-DEBUG   : Starting new HTTPS connection (1): hrmapitest.dingyl.com:443
+[2021-09-18 14:25:31,085]-[connectionpool.py|_make_request]-[line|452]-DEBUG   : https://hrmapitest.dingyl.com:443 "POST /hrm/user/login HTTP/1.1" 200 None
+[2021-09-18 14:25:31,088]-[sendRequests.py|send_requests]-[line|112]-DEBUG   : 返回内容--->{'l': {'request_id': '7af507027c7a40ffad3cdd6898357131'}, 'r': {'message': '登录失败，当前组织不存在用户名：13234166661！', 'result': '0', 'sub_all_message': '', 'sub_code': '', 'sub_message': ''}}
+[2021-09-18 14:25:31,089]-[login.py|is_true]-[line|112]-ERROR   : 登录结果失败,失败信息--->{'l': {'request_id': '7af507027c7a40ffad3cdd6898357131'}, 'r': {'message': '登录失败，当前组织不存在用户名：13234166661！', 'result': '0', 'sub_all_message': '', 'sub_code': '', 'sub_message': ''}}
